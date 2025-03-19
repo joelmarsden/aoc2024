@@ -1,6 +1,6 @@
 import numpy as np
 
-with open("./data/input_06.txt") as f:
+with open("./data/input_06_ex.txt") as f:
     maze: np.ndarray = np.array([list(line.strip()) for line in f])
 
 
