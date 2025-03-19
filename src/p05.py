@@ -2,7 +2,7 @@ import networkx as netx
 from collections import defaultdict
 from typing import DefaultDict, List
 
-with open("./data/input_05.txt") as f:
+with open("./data/input_05.txt") as f:  # Restored to use main input
     lines = [line.strip() for line in f]
 
 rules: DefaultDict[int, List[int]] = defaultdict(list)
